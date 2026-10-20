@@ -30,37 +30,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global distributed key-value store and in-memory database market is estimated at ~$2.8B to $8.1B, expanding at a CAGR of 11%-16% driven by low-latency caching, microservices coordination, and real-time AI/LLM inference workloads. The sector is highly fragmented across hyperscale cloud providers (AWS DynamoDB/ElastiCache, Azure Cosmos DB, GCP), specialized commercial open-core vendors (Redis, HashiCorp), and independent in-memory data platforms competing on sub-millisecond throughput and multi-cloud portability rather than converging toward a single winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Redis Enterprise**
-
-  **Commercial version of Redis** with active-active geo-distribution, built-in CRDTs, and enterprise support. **Free tier**: **Redis Cloud Free** provides 30MB storage with limited connections; **Fixed plans start at $5/month** for 250MB. **Typical cost**: ~$1,500–$3,500/month for 50GB with high availability . **Best for**: organizations wanting Redis with commercial support and multi-region replication.
-
-
-
-- **HashiCorp Consul Enterprise**
-
-  **Commercial Consul** with multi-tenancy, FIPS 140-3 compliance, and multi-runtime support. **Pricing**: custom quote-only; Standard tier includes service discovery, Premium adds service mesh . **Free trial**: **$500 credit** on HashiCorp Cloud Platform . **Best for**: enterprises needing supported Consul with advanced governance.
-
-
-
-- **Hazelcast Enterprise**
-
-  **Commercial in-memory data grid** with CP subsystem, WAN replication, and support. **Pricing**: custom quote-only; **Cloud Serverless** tier available for managed deployment . **Free tier**: **Hazelcast Platform (OSS)** is free with community support . **Best for**: teams needing distributed data structures with enterprise support.
-
-
+| Platform | Company Size (Valuation / Revenue) | Pricing | Free Tier / Trial Limits | Description & Key Use Cases |
+| :--- | :--- | :--- | :--- | :--- |
+| **HashiCorp Consul Enterprise** (HCP Consul) | **$6.4B** (Acquired by IBM) / ~$583M ARR | Self-service starting at **$0.069/hour** (base cluster) + **$0.027/hour** per service instance; custom quotes for enterprise governance tiers | **180-day free trial** with **$500 HCP credits** (up to 3 resources / 1 dedicated cluster; dev clusters auto-deleted if credits exhaust without payment method) | Commercial service networking and discovery platform featuring multi-tenancy, FIPS 140-3 compliance, global RPC rate limiting, and service mesh governance. |
+| **Redis Enterprise** (Redis Cloud) | **$2.0B** valuation / ~$300M ARR | Fixed self-service plans start at **$5.00/month** (250MB storage); flexible pay-as-you-go starting at **$0.881/GB-hour**; high-availability enterprise clusters ~$1,500-$3,500/month | **Free forever plan** with **30MB storage**, 30 concurrent connections, and 1 database on shared infrastructure (no credit card required) | Enterprise in-memory data platform featuring active-active geo-distribution (CRDTs), 99.999% uptime SLA, Redis on Flash storage tiering, and high-speed distributed caching/locking. |
+| **Hazelcast Enterprise** (Hazelcast Viridian) | **~$100M-$250M** valuation / ~$25M-$32M ARR | Median commercial contract starts around **$12,700-$23,338/year** (~$1,058/month); self-managed licenses billed annually per JVM node | **14-day free trial** of Viridian Cloud Standard capped at **0.5 GiB storage**, single-member cluster, auto-pause after 24h of inactivity (OSS platform is also free for self-hosting) | In-memory stream computing and data grid with CP Subsystem (Raft consensus), WAN replication, and enterprise security for high-throughput distributed state management. |
 
 ## Open-Source GitHub Projects
 
