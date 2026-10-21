@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Distributed-Key-Value-Stores/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-Key-Value-Stores?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Distributed-Key-Value-Stores/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-Key-Value-Stores?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-Key-Value-Stores/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Distributed-Key-Value-Stores?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-Key-Value-Stores/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Distributed-Key-Value-Stores?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-Key-Value-Stores/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License" /></a>
@@ -65,11 +65,11 @@ The sector is **highly fragmented** across hyperscale cloud providers (AWS Dynam
 
 ## 🚀 Open-Source GitHub Projects
 
-All open-source repositories below are sorted in **descending order by GitHub star count**. Each project includes a real-time social star badge linked directly to that repository's stargazers page.
+All open-source repositories below are sorted in **descending order by GitHub Stars_Count**. Each project includes a real-time social Stars_Badge linked directly to that repository's stargazers page.
 
 ### 🏆 Categorized Comparison Matrix
 
-| Project | GitHub Stars | Primary Consensus / Protocol | Primary Architecture Focus | License |
+| Project | GitHub_Stars | Primary Consensus / Protocol | Primary Architecture Focus | License |
 | :--- | :--- | :--- | :--- | :--- |
 | **Redis** | [![Redis Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers) | Asynchronous / Sentinel / Raft-Redlock | In-Memory Data Structure Store & Caching | BSD-3-Clause / RSALv2 / SSPLv1 |
 | **etcd** | [![etcd Stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers) | Raft Consensus (CP) | Distributed Configuration & Kubernetes Metadata | Apache-2.0 |
@@ -174,7 +174,7 @@ Contributions, project suggestions, and documentation enhancements are warmly we
 
 1. **Fork the Repository** to your personal GitHub account.
 2. **Add or Update Entries** in `README.md` following the tabular and detailed breakdown formatting guidelines.
-3. **Include Key Criteria**: Official project link, licensing, architecture focus, star badge with `style=social&color=white`, and technical consensus mechanics.
+3. **Include Key Criteria**: Official project link, licensing, architecture focus, Stars_Badge with `style=social&color=white`, and technical consensus mechanics.
 4. **Submit a Pull Request** with a concise description explaining why the tool is beneficial to distributed systems engineers.
 
 ---
